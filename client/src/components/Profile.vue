@@ -18,6 +18,11 @@
           <td>Email</td>
           <td>{{email}}</td>
         </tr>
+        <tr>
+          <td>Acccès VIP</td>
+          <td><button v-if="first_name==='Admin' && last_name==='root'">Ajout voiture</button>
+          </td>
+        </tr>
         </tbody>
       </table>
     </div>
@@ -36,10 +41,6 @@ export default {
       first_name: decoded.first_name,
       last_name: decoded.last_name,
       email: decoded.email
-      // isAdmin: decoded.is_admin,
-      // if (isAdmin) {
-      //   console.log('Test Addmin')
-      // }
     }
   }
 }

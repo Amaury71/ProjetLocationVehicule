@@ -16,7 +16,7 @@ users.post("/register", (req, res) => {
     last_name: req.body.last_name,
     email: req.body.email,
     password: req.body.password,
-    created: today
+    created: today,
   }
 
   User.findOne({
@@ -54,7 +54,7 @@ users.post('/login', (req, res) => {
               _id: user._id,
               first_name: user.first_name,
               last_name: user.last_name,
-              email: user.email
+              email: user.email,
             }
             let token = jwt.sign(payload, process.env.SECRET_KEY, {
               expiresIn: 1440
