@@ -46,6 +46,7 @@ module.exports = {
         });
     },
     newVoiture: function(req, res, next){
+        console.log(req.file);
         //Gestion de la date pour la BDD
         let date = new Date();
         const voiture = new Voiture({

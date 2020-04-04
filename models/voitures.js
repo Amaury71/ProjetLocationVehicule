@@ -9,6 +9,10 @@ var VoitureSchema = mongoose.Schema({
     prix:{
         type: Intl,
         required: true
+    },
+    productImage:{
+        type:String,
+        required:false
     }
 });
 

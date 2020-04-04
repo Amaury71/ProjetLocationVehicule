@@ -2,16 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e4bcfa9-1373-40ee-8181-d46af8cde70d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Profile.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/voitures.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/voitures.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/voitures.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/voitures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/example/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/example/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/readme.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/readme.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/dash.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/dash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/default_bool.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/default_bool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/dotted.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/dotted.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/test/parse_modified.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/test/parse_modified.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/examples/pow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mkdirp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mkdirp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/readme.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mkdirp/readme.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/chmod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/clobber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/mkdirp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/opts_fs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/opts_fs_sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/perm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/perm_sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/race.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/rel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/return.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/return_sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/root.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/umask.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/test/umask_sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/example/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/example/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/readme.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/readme.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/test/bool.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rc/node_modules/minimist/test/bool.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/voitures.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/voitures.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +121,7 @@
       <workItem from="1583782050678" duration="4764000" />
       <workItem from="1583873370915" duration="4394000" />
       <workItem from="1586013789785" duration="5080000" />
-      <workItem from="1586022505478" duration="1856000" />
+      <workItem from="1586022505478" duration="7355000" />
     </task>
     <servers />
   </component>
