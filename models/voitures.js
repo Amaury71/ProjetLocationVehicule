@@ -6,8 +6,12 @@ var VoitureSchema = mongoose.Schema({
         type: String,
         required: true
     },
+    description:{
+        type: String,
+        required: false
+    },
     prix:{
-        type: Intl,
+        type: Number,
         required: true
     },
     productImage:{

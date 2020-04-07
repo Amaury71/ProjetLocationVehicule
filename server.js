@@ -25,6 +25,7 @@ var Voitures = require("./routes/voitures");
 
 app.use("/users", Users);
 app.use("/voitures", Voitures);
+app.use(express.static('./uploads'));
 
 
 

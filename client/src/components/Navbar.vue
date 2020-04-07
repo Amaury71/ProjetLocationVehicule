@@ -12,7 +12,7 @@
           <router-link class="nav-link" to="/">Accueil</router-link>
         </li>
         <li class="nav-item">
-          <router-link  class="nav-link" to="/login" v-if="first_name==null && last_name==null">Connexion</router-link>
+          <router-link  class="nav-link" to="/login" v-if="first_name===null && last_name===null">Connexion</router-link>
         </li>
         <li class="nav-item">
           <router-link class="nav-link" to="/register" v-if="first_name==null && last_name==null">Inscription</router-link>
@@ -23,10 +23,11 @@
         <li class="nav-item">
           <a class="nav-link" href="" v-on:click="logout" v-if="first_name!==null && last_name!==null">Déconnexion</a>
         </li>
-
         <li class="nav-item">
-          <router-link class="nav-link" to="/creationV">Ajout de véhicule</router-link>
+
+          <router-link class="nav-link" to="/creationV" v-if="first_name==='Admin' && last_name==='root'">Ajout de véhicule</router-link>
         </li>
+
       </ul>
     </div>
   </nav>
@@ -43,7 +44,6 @@ export default {
     const token = localStorage.usertoken
 
     if (token===undefined){
-    console.log('No')
     return {
       auth: '',
       user: '',
@@ -53,7 +53,6 @@ export default {
     }
     else {
     const decoded = jwtDecode(token)
-    console.log('yess')
         return {
             auth: '',
             user: '',

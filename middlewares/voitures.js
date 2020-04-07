@@ -34,7 +34,9 @@ module.exports = {
     },
     updateVoiture: function(req, res, next){
         if(req.body.modele) req.data.voiture.modele = req.body.modele;
+        if(req.body.description) req.data.voiture.description = req.body.description;
         if(req.body.prix) req.data.voiture.prix = req.body.prix;
+
         req.data.voiture.save(function(err, voitureUpdated){
             if (err){
                 return next({
@@ -47,11 +49,14 @@ module.exports = {
     },
     newVoiture: function(req, res, next){
         console.log(req.file);
+
         //Gestion de la date pour la BDD
         let date = new Date();
         const voiture = new Voiture({
             modele: req.body.modele,
-            prix: req.body.prix
+            description: req.body.description,
+            prix: req.body.prix,
+            productImage:req.file.path
         });
         voiture.save(function(err, voitureSaved){
             if(err){ return next(err); }

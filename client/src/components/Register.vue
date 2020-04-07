@@ -21,7 +21,7 @@
             <label for="password">Mot de passe</label>
             <input type="password" v-model="password" class="form-control" name="password" placeholder="entrer un mot de passe">
           </div>
-          <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">S'inscrire</button>
         </form>
       </div>
     </div>

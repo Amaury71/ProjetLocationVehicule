@@ -7,11 +7,11 @@
       <table class="table col-md-6 mx-auto">
         <tbody>
         <tr>
-          <td>First Name</td>
+          <td>Nom</td>
           <td>{{first_name}}</td>
         </tr>
         <tr>
-          <td>Last Name</td>
+          <td>Prénom</td>
           <td>{{last_name}}</td>
         </tr>
         <tr>
@@ -19,8 +19,12 @@
           <td>{{email}}</td>
         </tr>
         <tr>
-          <td>Acccès VIP</td>
-          <td><button v-if="first_name==='Admin' && last_name==='root'">Ajout voiture</button>
+          <td>
+            </td>
+          <td>
+            <router-link class="nav-link" to="/creationV" v-if="first_name==='Admin' && last_name==='root'">Accès VIP</router-link>
+
+            <!--            <button v-on:click="creationV" v-if="first_name==='Admin' && last_name==='root'">Ajout voiture</button>-->
           </td>
         </tr>
         </tbody>

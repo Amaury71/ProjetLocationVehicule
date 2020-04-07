@@ -6,6 +6,10 @@
       <input type="text" class="form-control" placeholder="Entrez le nom du modèle" v-model="Voiture.modele">
     </div>
     <div class="form-group">
+      <label class="pull-left">Description</label>
+      <input type="text" class="form-control" placeholder="Entrez une description" v-model="Voiture.description">
+    </div>
+    <div class="form-group">
       <label class="pull-left">Prix</label>
       <input type="text" class="form-control" placeholder="Entrez le prix du modèle" v-model="Voiture.prix">
     </div>
@@ -20,9 +24,10 @@ export default {
   data () {
     return {
       msg: 'Bienvenue sur notre site !',
-      Voiture: {modele: '', prix: ''}
+      Voiture: {modele: '', description: '', prix: '' ,productImage: ''}
     }
   },
+
   methods: {
     addToAPI () {
       axios.post('http://localhost:3000/voitures',
